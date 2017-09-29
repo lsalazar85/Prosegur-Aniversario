@@ -1,0 +1,1831 @@
+
+@font-face {
+    font-family: "FSEX300";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/FSEX300.ttf") format("truetype");
+}
+
+* {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-error{
+	border: 3px solid #A6B700;
+}
+
+.loader {
+  display:    none;
+  position:   fixed;
+  z-index:    1000;
+  top:        0;
+  left:       0;
+  height:     100%;
+  width:      100%;
+  background: rgba( 255, 255, 255, .8 ) 
+              url("../css/images/bx_loader.gif")
+              50% 50% 
+              no-repeat;
+}
+
+body.loading {
+  overflow: hidden;   
+}
+
+body.loading .loader {
+  display: block;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+  background: url(../img/background.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+/* ------- CONTENEDOR ------ */ 
+
+.contenedor {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenedor_interno {
+  width: 945px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/*------- HEADER -----------*/
+
+.header {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'FSEX300';
+  font-size: 22px;
+}
+
+.header_gif01{
+  width: 15%;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  top:62%;
+  left: 5%;
+}
+
+
+.header_gif02{
+  width: 15%;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 62%;
+  left: 79.8%;
+}
+
+.header_gif01 img, .header_gif02 img  {
+  width: 60%;
+}
+
+
+.header_titulo {
+  width: 30%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.logo20 {
+  width: 85%;
+  height: auto;
+}
+
+.linea_roja {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 95%;
+  left: 0%;
+}
+
+.linea_roja img {
+  width: 83%;
+  height: auto;
+}
+
+.p_resp {
+  display: none;
+}
+
+
+/* ---- CAMARAS --*/
+
+.camaras {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: -29px;
+}
+
+.camara01 {
+  width: auto;
+  height: auto;
+  float: left;
+  text-align: left;
+}
+
+.camara02 {
+  width: auto;
+  height: auto;
+  float: right;
+  text-align: left;
+}
+
+/*--- M E N U --*/
+
+.menu {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: -60px;
+  margin-bottom: 36px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: red;
+}
+
+.menu a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.menu p {
+  font-family: 'FSEX300';
+}
+
+.menu_derecho{
+  width: 30%;
+  height:auto;
+  float: left;
+}
+
+.menu_izquierdo {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+}
+
+.menu_izquierdo--mobile {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+
+
+.menu_izquierdo img, .menu_izquierdo--mobile  img{
+  width: 77%;
+  height: 100%;
+}
+
+.menu_derecho_ppl {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+ .menu_derecho_pplI {
+  width: 40%;
+  height: 120px;
+  float: left;
+  text-align: left;
+}
+
+.menu_derecho_pplR{
+  width: 60%;
+  height: 120px;
+  float: left;
+}
+
+.menu_derecho_ppl div img {
+  width: 79%;
+  height: auto;
+}
+
+.joystick {
+ margin-left: 130px;
+}
+
+.hot02 {
+  margin-left: 52px;
+  margin-top: 4px;
+}
+
+.radio {
+  margin-top: -19px;
+  margin-left: -10px;
+}
+
+.extra-top {
+  padding-top: 11px;
+}
+
+.flecha {
+    width: 15%;
+    height: auto;
+    text-align: center;
+    float: right;
+    margin-top: -99px;
+    margin-right: -37px;
+}
+
+.share-margen {
+  margin-right: 15px;
+}
+
+.share {
+  width: 35%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-right: 215px;
+  cursor: pointer;
+}
+
+.share-img {
+  width: 22%;
+  margin-right: 15px;
+}
+
+.share-img02 {
+  width: 40.3%;
+}
+
+.imagen {
+  width: 118px;
+  height: 130px;
+  float: right;
+  margin-top: -205px;
+  margin-right: 114px;
+}
+
+#imagen {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#redes {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 500px;
+  left: 40.1%;
+  z-index: 1;
+}
+
+
+.hide02 {
+  display: none;
+}
+
+
+
+/* ---- FORMULARIO ---- */
+
+.formulario {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: transparent;
+  font-family: 'FSEX300';
+  margin-bottom: 80px;
+  margin-top: -66px;
+  text-align: center;
+}
+
+.formulario p {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.formulario form {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.formulario form div {
+  width: 100%;
+}
+
+.formulario form div {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+  margin-bottom: 10px;
+}
+
+.select {
+  height: 31px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(http://prosegurcl.nextperience.netdna-cdn.com/arrow.png) no-repeat right white;
+  padding: 7px !important;
+  padding-left: 15px !important;
+}
+
+
+.input:focus,
+.input.focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+.textarea {
+  width: 100%;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 1px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+}
+
+.textarea:focus,
+.textarea.focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  float: right;
+  width: 95px;
+  height: 28px;
+  background: #EBEBEB;
+}
+
+.marquee {
+  width: 100%;
+}
+
+.marquee-div {
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.tamagochi {
+  display: none;
+}
+
+/* ------  MEDIA QUERIES    */
+  
+@media (max-width: 1024px) {
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+
+  .linea_roja {
+    top: 101%;
+  }
+
+  .share {
+    margin-right: 220px;
+  }
+
+  .radio {
+    margin-left: 71px;
+    margin-top: 27px;
+
+  }
+
+  .flecha {
+    margin-top: -130px;
+  }
+
+  .formulario {
+    margin-top: -30px;
+  }
+
+  .imagen {
+    width: 116px;
+    height: 153px;
+    margin-top: -207px;
+    margin-right: 119px;
+  }
+
+   .joystick {
+    display: none;
+  }
+
+  #redes, #redes_mobile {
+    top: 515px;
+    left: 39.1%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 10px 250px 10px;
+  }
+
+  .logo20 {
+    width: 100%;
+  }
+
+  .linea_roja {
+    top: 99%;
+  }
+
+  .linea_roja img {
+    width: 90%;
+  }
+
+  .header_titulo {
+    width: 50%;
+    margin-top: 70px;
+  }
+
+  .header_gif01 {
+    top: 82%;
+    left: 2%;
+  }
+
+  .header_gif02{
+    top: 82%;
+    left: 83%;
+  }
+
+  .texto span {
+    font-size: 21.3px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+
+  .camaras {
+    margin-top: -32%;
+    margin-bottom: 29%;
+  }
+
+  .menu_izquierdo {
+    display: none;
+  }
+
+  .menu_izquierdo--mobile {
+    display: block;
+    width: 55%;
+  }
+
+  .joystick {
+    display: none;
+  }
+
+  .menu {
+   font-size: 30px; 
+  }
+
+  .menu_derecho_ppl div img {
+    width: 37%;
+  }
+
+  .menu_derecho_pplI {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .radio {
+    position: absolute;
+    top: 584px;
+    left: -37px;
+  }
+
+  .hot02 {
+    position: absolute;
+    top: 732px;
+    left: 60px;
+  }
+
+  .extra-top {
+    padding-top: 24px;
+  }
+
+  .marquee-div {
+    width: 50%;
+  }
+
+  .share {
+    margin-right: 230px;
+  }
+
+  .share-img {
+    width: 30%;
+    margin-right: 5px;
+
+  }
+
+  .share-img02 {
+      width: 55%;
+  }
+
+  .formulario {
+    margin-top: 38%;
+  }
+
+  .tamagochi {
+    display: block;
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 1303px;
+    left: 224px;
+  }
+
+  .tamagochi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    position: absolute;
+    top: 1626px;
+    left: 44%;
+    z-index: 1;
+  }
+
+  #imagen {
+    width: 100%;
+  }
+
+  .flecha {
+    position: absolute;
+    top: 1633px;
+    left: 474px;
+  }
+
+  .menu_derecho_ppl {
+    width: 87%;
+  }
+
+    .p_resp {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #redes{
+    width: 40%;
+    top: 588px;
+    left: 20%;
+  }
+
+}
+
+@media (min-width: 668px) and (max-width: 767px){
+
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 10px 190px 10px;
+  }
+
+  .logo20 {
+    width: 100%;
+  }
+
+  .linea_roja {
+    top: 98%;
+  }
+
+  .linea_roja img {
+    width: 90%;
+  }
+
+  .header_titulo {
+    margin-top: 70px;
+  }
+
+  .header_gif01 {
+    top: 83%;
+    left: 2%;
+  }
+
+  .header_gif02{
+    top: 83%;
+    left: 83%;
+  }
+
+  .texto span {
+    font-size: 21.3px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+
+  .camaras {
+    margin-top: -34%;
+    margin-bottom: 31%;
+  }
+
+  .menu_izquierdo {
+    display: none;
+  }
+
+  .menu_izquierdo--mobile {
+    display: block;
+    width: 55%;
+  }
+
+  .joystick {
+    display: none;
+  }
+
+  .menu {
+   font-size: 30px; 
+  }
+
+  .menu_derecho_ppl div img {
+    width: 37%;
+  }
+
+  .menu_derecho_pplI {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .radio {
+    position: absolute;
+    top: 566px;
+    left: -37px;
+  }
+
+  .hot02 {
+    position: absolute;
+    top:700px;
+    left: 16px;
+  }
+
+  .extra-top {
+    padding-top: 24px;
+  }
+
+  .marquee-div {
+    width: 50%;
+  }
+
+  .share {
+    margin-right: 212px;
+  }
+
+  .share-img {
+    width: 30%;
+    margin-right: 5px;
+
+  }
+
+  .share-img02 {
+      width: 55%;
+  }
+
+  .formulario {
+    margin-top: 38%;
+  }
+
+  .tamagochi {
+    display: block;
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 1270px;
+    left: 224px;
+  }
+
+  .tamagochi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    position: absolute;
+    top: 1585px;
+    left: 44.6%;
+    z-index: 1;
+  }
+
+  #imagen {
+    width: 100%;
+  }
+
+  .flecha {
+    position: absolute;
+    top: 1593px;
+    left: 455px;
+  }
+
+  .menu_derecho_ppl {
+    width: 87%;
+  }
+
+    .p_resp {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #redes {
+    width: 40%;
+    top: 569px;
+    left: 20.6%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 667px){
+
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 10px 190px 10px;
+  }
+
+  .logo20 {
+    width: 100%;
+  }
+
+  .linea_roja {
+    top: 98%;
+  }
+
+  .linea_roja img {
+    width: 90%;
+  }
+
+  .header_titulo {
+    margin-top: 70px;
+  }
+
+  .header_gif01 {
+    top: 84%;
+    left: 2%;
+  }
+
+  .header_gif02{
+    top: 84%;
+    left: 83%;
+  }
+
+  .texto span {
+    font-size: 21.3px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+
+  .camaras {
+    margin-top: -35%;
+    margin-bottom: 31%;
+  }
+
+  .menu_izquierdo {
+    display: none;
+  }
+
+  .menu_izquierdo--mobile {
+    display: block;
+    width: 55%;
+  }
+
+  .joystick {
+    display: none;
+  }
+
+  .menu {
+   font-size: 30px; 
+  }
+
+  .menu_derecho_ppl div img {
+    width: 37%;
+  }
+
+  .menu_derecho_pplI {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .radio {
+    position: absolute;
+    top: 534px;
+    left: -45px;
+  }
+
+  .hot02 {
+    position: absolute;
+    top:662px;
+    left: 16px;
+  }
+
+
+  .extra-top {
+    padding-top: 24px;
+  }
+
+  .marquee-div {
+    width: 50%;
+  }
+
+  .share {
+    margin-right: 198px;
+  }
+
+  .share-img {
+    width: 30%;
+    margin-right: 5px;
+
+  }
+
+  .share-img02 {
+      width: 55%;
+  }
+
+  .formulario {
+    margin-top: 38%;
+  }
+
+  .tamagochi {
+    display: block;
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 1219px;
+    left: 206px;
+  }
+
+  .tamagochi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    position: absolute;
+    top: 1523px;
+    left: 295px;
+    z-index: 1;
+  }
+
+  #imagen {
+    width: 90%;
+  }
+
+  .flecha {
+    position: absolute;
+    top: 1528px;
+    left: 407px;
+  }
+
+  .menu_derecho_ppl {
+    width: 87%;
+  }
+
+    .p_resp {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #redes {
+    top: 531px;
+    left: 20%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+
+}
+
+
+@media (min-width: 569px) and (max-width: 600px){
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 10px 190px 10px;
+  }
+
+  .logo20 {
+    width: 100%;
+  }
+
+  .linea_roja {
+    top: 99%;
+  }
+
+  .linea_roja img {
+    width: 90%;
+  }
+
+  .header_titulo {
+    margin-top: 70px;
+  }
+
+  .header_gif01 {
+    top: 87%;
+    left: 2%;
+  }
+
+  .header_gif02{
+    top: 87%;
+    left: 83%;
+  }
+
+  .texto span {
+    font-size: 21.3px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+
+  .camaras {
+    margin-top: -40%;
+    margin-bottom: 42%;
+  }
+
+  .menu_izquierdo {
+    display: none;
+  }
+
+  .menu_izquierdo--mobile {
+    display: block;
+    width: 55%;
+  }
+
+  .joystick {
+    display: none;
+  }
+
+  .menu {
+   font-size: 30px; 
+  }
+
+  .menu_derecho_ppl div img {
+    width: 37%;
+  }
+
+  .menu_derecho_pplI {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .radio {
+    position: absolute;
+    top: 535px;
+    left: -45px;
+  }
+
+  .hot02 {
+    position: absolute;
+    top:638px;
+    left: 16px;
+  }
+
+
+  .extra-top {
+    padding-top: 42px;
+  }
+
+  .marquee-div {
+    width: 50%;
+  }
+
+  .share {
+    margin-right: 173px;
+  }
+
+  .share-img {
+    width: 30%;
+    margin-right: 5px;
+
+  }
+
+  .share-img02 {
+      width: 55%;
+  }
+
+  .formulario {
+    margin-top: 38%;
+  }
+
+  .tamagochi {
+    display: block;
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 1210px;
+    left: 164px;
+  }
+
+  .tamagochi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    position: absolute;
+    top: 1502px;
+    left: 240px;
+    z-index: 1;
+  }
+
+  #imagen {
+    width: 88%;
+  }
+
+  .flecha {
+    position: absolute;
+    top: 1494px;
+    left: 355px;
+  }
+
+  .menu_derecho_ppl {
+    width: 75%;
+  }
+
+  .p_resp {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #redes {
+    top: 535px;
+    left: 20%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+
+}
+
+/* IPHONE 5  HORIZONTAL */
+
+@media (max-width: 568px){
+
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 10px 190px 10px;
+  }
+
+  .logo20 {
+    width: 100%;
+  }
+
+  .linea_roja {
+    top: 98%;
+  }
+
+  .linea_roja img {
+    width: 90%;
+  }
+
+  .header {
+    font-size: 16px;
+  }
+
+  .header_titulo {
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: -3px;
+  }
+
+  .p_resp {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .header_gif01 {
+    top: 86%;
+    left: 2%;
+  }
+
+  .header_gif02{
+    top: 86%;
+    left: 83%;
+  }
+
+  .texto span {
+    font-size: 21.3px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+
+  .camaras {
+    margin-top: -41%;
+    margin-bottom: 37%;
+  }
+
+  .menu_izquierdo {
+    display: none;
+  }
+
+  .menu_izquierdo--mobile {
+    display: block;
+    width: 55%;
+  }
+
+  .joystick {
+    display: none;
+  }
+
+  .menu {
+   font-size: 21px; 
+  }
+
+  .menu_derecho_ppl div img {
+    width: 37%;
+  }
+
+  .menu_derecho_pplI {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .radio {
+    position: absolute;
+    top: 477px;
+    left: 5px;
+  }
+
+  .hot02 {
+    position: absolute;
+    top:608px;
+    left: 68px;
+  }
+
+
+  .extra-top {
+    padding-top: 24px;
+  }
+
+  .marquee-div {
+    width: 50%;
+  }
+
+  .share {
+    margin-right: 173px;
+  }
+
+  .share-img {
+    width: 30%;
+    margin-right: 5px;
+
+  }
+
+  .share-img02 {
+      width: 55%;
+  }
+
+  .formulario {
+    margin-top: 38%;
+  }
+
+  .tamagochi {
+    display: block;
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 1177px;
+    left: 166px;
+  }
+
+  .tamagochi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    position: absolute;
+    top: 1466px;
+    left: 240px;
+    z-index: 1;
+  }
+
+  #imagen {
+    width: 80%;
+  }
+
+  .flecha {
+    position: absolute;
+    top: 1465px;
+    left: 343px;
+  }
+
+  .menu_derecho_ppl {
+    width: 70%;
+  }
+
+  #redes {
+    top: 485px;
+    left: 19%;
+  } 
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+
+}
+
+@media (max-width: 414px) {
+  .imagen {
+    position: absolute;
+    top: 1547px !important;
+    left: 149px !important;
+    z-index: 1;
+  }
+
+   #imagen {
+    width: 100%;
+  }
+
+  #redes {
+    top: 535px;
+    left: 4%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+}
+
+@media (max-width: 384px) {
+  .imagen {
+    position: absolute;
+    top: 1537px !important;
+    left: 138px !important;
+    z-index: 1;
+  }
+
+  #imagen {
+    width: 90%;
+  }
+
+  #redes {
+    top: 512px;
+    left: 4%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+}
+
+@media (max-width: 375px) {
+  .imagen {
+    position: absolute;
+    top: 1533px !important;
+    left: 134px !important;
+    z-index: 1;
+  }
+
+   #imagen {
+    width: 90%;
+  }
+
+  #redes {
+    top: 502px;
+    left: 4%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .red_mobile {
+    display: block
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+
+}
+
+
+@media (min-width: 321px) and (max-width: 414px){
+
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 10px 250px 10px;
+  }
+
+  .logo20 {
+    width: 100%;
+  }
+
+  .linea_roja {
+    top: 99%;
+    left: -7%;
+  }
+
+  .linea_roja img {
+    width: 114%;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .header_titulo {
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: -3px;
+  }
+
+  .p_resp {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .header_gif01 {
+    top: 86%;
+    left: -8%;
+  }
+
+  .header_gif02{
+    top: 86%;
+    left: 93%;
+  }
+
+  .header_gif01 img, .header_gif02 img {
+    width: 100%;
+  }
+
+  .texto span {
+    font-size: 21.3px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+
+  .camaras {
+    margin-top: -61%;
+    margin-bottom: 54%;  
+  }
+
+  .menu_izquierdo {
+    display: none;
+  }
+
+  .menu_izquierdo--mobile {
+    display: block;
+    width: 90%;
+  }
+
+  .joystick {
+    display: none;
+  }
+
+  .menu {
+   font-size: 23px; 
+  }
+
+  .menu_derecho_ppl div img {
+    width: 100%;
+  }
+
+  .menu_derecho_pplI {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .radio {
+    position: absolute;
+    top: 506px;
+    left: -13px;
+  }
+
+  .hot02 {
+    position: absolute;
+    top: 660px;
+    left: 16px;
+  }
+
+
+  .extra-top {
+    padding-top: 15px;
+  }
+
+  .marquee-div {
+    width: 90%;
+  }
+
+  .share {
+    width: 90%;
+     margin-left: 31px;
+     padding-top: 10px;
+  }
+
+  .share-img {
+    width: 30%;
+    margin-right: 10px;
+
+  }
+
+  .share-img02 {
+      width: 55%;
+  }
+
+  .formulario {
+    margin-top: 250px;
+  }
+
+  .formulario form {
+    width: 90%; 
+  }
+
+  .tamagochi {
+    display: block;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 1234px;
+    left: 53px;
+  }
+
+  .tamagochi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    position: absolute;
+    top: 1555px ;
+    left: 151px ;
+    z-index: 1;
+  }
+
+
+  .flecha {
+    position: absolute;
+     top: 1529px;
+    left: 281px;
+  }
+
+  .menu_derecho_ppl {
+    width: 70%;
+  }
+
+    #imagen {
+    width: 90%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+
+
+}
+
+/*  IPHONE 5  VERTICAL */
+
+@media (max-width: 320px){
+
+  .contenedor_interno {
+    width: 100%;
+    padding: 0 10px 124px 10px;
+  }
+
+  .logo20 {
+    width: 100%;
+  }
+
+  .linea_roja {
+    top: 95%;
+    left: -12%;
+  }
+
+  .linea_roja img {
+    width: 124%;
+  }
+
+  .header {
+    font-size: 18px;
+  }
+
+  .header_titulo {
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: -3px;
+  }
+
+  .p_resp {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .header_gif01 {
+    top: 82%;
+    left: -13%;
+  }
+
+  .header_gif02{
+    top: 82%;
+    left: 97%;
+  }
+
+  .header_gif01 img, .header_gif02 img {
+    width: 100%;
+  }
+
+  .texto span {
+    font-size: 21.3px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+
+  .camaras {
+    margin-top: -61%;
+    margin-bottom: 54%;  
+  }
+
+  .menu_izquierdo {
+    display: none;
+  }
+
+  .menu_izquierdo--mobile {
+    display: block;
+    width: 90%;
+  }
+
+  .joystick {
+    display: none;
+  }
+
+  .menu {
+   font-size: 19px; 
+  }
+
+  .menu_derecho_ppl div img {
+    width: 120%;
+  }
+
+  .menu_derecho_pplI {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .radio {
+    position: absolute;
+    top: 436px;
+    left: -45px;
+  }
+
+  .hot02 {
+    position: absolute;
+    top:580px;
+    left: 16px;
+  }
+
+
+  .extra-top {
+    padding-top: 5px;
+  }
+
+  .marquee-div {
+    width: 90%;
+  }
+
+  .share {
+    width: 90%;
+     margin-left: 25px;
+     padding-top: 10px;
+  }
+
+  .share-img {
+    width: 30%;
+    margin-right: 10px;
+
+  }
+
+  .share-img02 {
+      width: 55%;
+  }
+
+  .formulario {
+    margin-top: 81%;
+  }
+
+  .formulario form {
+    width: 90%; 
+  }
+
+  .tamagochi {
+    display: block;
+    width: 65%;
+    height: auto;
+    position: absolute;
+    top: 1125px;
+    left: 34px;
+  }
+
+  .tamagochi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    position: absolute;
+    top: 1417px !important;
+    left: 111px !important;
+    z-index: 1;
+  }
+
+  #imagen {
+    width: 80%;
+  }
+
+  .flecha {
+    position: absolute;
+    top: 1399px;
+    left: 236px;
+  }
+
+  .menu_derecho_ppl {
+    width: 70%;
+  }
+
+  .red{
+    display: none;
+  }
+
+  .hide02 {
+    display: block;
+  }
+
+  .red_mobile{
+    display: inline-block;
+  }
+
+  #redes {
+    top: 439px;
+    left: 4%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

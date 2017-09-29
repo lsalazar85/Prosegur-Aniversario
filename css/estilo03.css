@@ -1,0 +1,364 @@
+
+@font-face {
+    font-family: "FSEX300";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/FSEX300.ttf") format("truetype");
+}
+
+* {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-error{
+	border: 3px solid #A6B700;
+}
+
+.loader {
+  display:    none;
+  position:   fixed;
+  z-index:    1000;
+  top:        0;
+  left:       0;
+  height:     100%;
+  width:      100%;
+  background: rgba( 255, 255, 255, .8 ) 
+              url("../css/images/bx_loader.gif")
+              50% 50% 
+              no-repeat;
+}
+
+body.loading {
+  overflow: hidden;   
+}
+
+body.loading .loader {
+  display: block;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+  background: url(../img/background.png);
+  background-repeat: repeat;
+  background-size: cover;
+  min-width:  1200px;
+}
+
+
+/* ------- CONTENEDOR ------ */ 
+
+.contenedor {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenedor_interno {
+  width: 945px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+/*------- HEADER -----------*/
+
+.header {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'FSEX300';
+  font-size: 22px;
+}
+
+.header_gif01{
+  width: 15%;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  top:62%;
+  left: 5%;
+}
+
+
+.header_gif02{
+  width: 15%;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 62%;
+  left: 79.8%;
+}
+
+.header_gif01 img, .header_gif02 img  {
+  width: 60%;
+}
+
+
+.header_titulo {
+  width: 30%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.logo20 {
+  width: 85%;
+  height: auto;
+}
+
+.linea_roja {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 95%;
+  left: 0%;
+}
+
+.linea_roja img {
+  width: 83%;
+  height: auto;
+}
+
+.wow {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top:52px;
+  left: 37%;
+}
+
+.wow img {
+  width: 70%;
+  height: auto;
+}
+
+.wow2 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top:62px;
+  left: 58%;
+}
+
+.wow2 img {
+  width: 50%;
+  height: auto;
+}
+
+.flecha {
+    width: 15%;
+    height: auto;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: -41px;
+}
+
+
+/* ---- CAMARAS --*/
+
+.camaras {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: -29px;
+}
+
+.camara01 {
+  width: auto;
+  height: auto;
+  float: left;
+  text-align: left;
+}
+
+.camara02 {
+  width: auto;
+  height: auto;
+  float: right;
+  text-align: left;
+}
+
+.title_resp {
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -138px;
+    margin-bottom: -13px;
+    text-transform: uppercase;
+}
+
+.title_resp .titulo {
+  color: black;
+  font-family: 'FSEX300';
+  font-size: 35px;
+  margin-bottom: -20px;
+}
+
+.parrafo {
+  font-family: 'Time New Roman';
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  line-height: 1.22;
+}
+
+.juego {
+    width: 100%;
+    height: 425px;
+    padding-left: 286px;
+    padding-top: 10px;
+}
+
+
+
+/* ---- FORMULARIO ---- */
+
+.formulario {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: transparent;
+  font-family: 'FSEX300';
+  margin-bottom: 80px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.formulario p {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.formulario form {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.formulario form div {
+  width: 100%;
+}
+
+.formulario form div {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+  margin-bottom: 10px;
+}
+
+.select {
+  height: 31px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(http://prosegurcl.nextperience.netdna-cdn.com/arrow.png) no-repeat right white;
+  padding: 7px !important;
+  padding-left: 15px !important;
+}
+
+
+.input:focus,
+.input.focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+.textarea {
+  width: 100%;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 1px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+}
+
+.textarea:focus,
+.textarea.focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  float: right;
+  width: 95px;
+  height: 28px;
+  background: #EBEBEB;
+}
+
+.marquee {
+  width: 100%;
+}
+
+.marquee-div {
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.share-margen {
+  margin-right: 15px;
+}
+
+.share {
+  width: 35%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-right: 223px;
+  margin-top: 10px;
+}
+
+.share-img {
+  width: 22%;
+  margin-right: 15px;
+}
+
+.share-img02 {
+  width: 40.3%;
+}
+
+#redes {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 706px;
+  left: 39.5%;
+  z-index: 1;
+}
+
